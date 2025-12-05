@@ -1,0 +1,66 @@
+[
+  {
+    "id": "woody",
+    "name": "Woody",
+    "priceRUB": 1499,
+    "imageURL": "Woody.png",
+    "description": "Ковбой Вуди — отважный лидер игрушек и верный друг.",
+    "category": "main"
+  },
+  {
+    "id": "buzz",
+    "name": "Buzz Lightyear",
+    "priceRUB": 1999,
+    "imageURL": "Buzz Lightyear.png",
+    "description": "Космический рейнджер Базз Лайтер — к бесконечности и дальше!",
+    "category": "main"
+  },
+  {
+    "id": "jessie",
+    "name": "Jessie",
+    "priceRUB": 1299,
+    "imageURL": "Jessie.png",
+    "description": "Джесси — весёлая и энергичная ковбойша из банды Вуди.",
+    "category": "main"
+  },
+  {
+    "id": "rex",
+    "name": "Rex",
+    "priceRUB": 999,
+    "imageURL": "Rex.png",
+    "description": "Рекс — добрый динозавр, который боится своего рыка.",
+    "category": "friends"
+  },
+  {
+    "id": "hamm",
+    "name": "Hamm",
+    "priceRUB": 799,
+    "imageURL": "Hamm.png",
+    "description": "Хэмм — саркастичная свинья-копилка с острым умом.",
+    "category": "friends"
+  },
+  {
+    "id": "slinky",
+    "name": "Slinky Dog",
+    "priceRUB": 1099,
+    "imageURL": "Slinky Dog.png",
+    "description": "Слинки — верный пёс-пружинка, всегда готов помочь друзьям.",
+    "category": "friends"
+  },
+  {
+    "id": "bopeep",
+    "name": "Bo Peep",
+    "priceRUB": 1599,
+    "imageURL": "Bo Peep.png",
+    "description": "Бо Пип — храбрая и независимая пастушка.",
+    "category": "main"
+  },
+  {
+    "id": "alien",
+    "name": "Alien (Little Green Men)",
+    "priceRUB": 499,
+    "imageURL": "Alien (Little Green Men).png",
+    "description": "Зелёные человечки — поклонники Когти и верные друзья.",
+    "category": "aliens"
+  }
+]
