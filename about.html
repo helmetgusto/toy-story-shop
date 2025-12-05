@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О нас - Toy Story Shop</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Bangers&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-cloud header-cloud-1"></div>
+        <div class="header-cloud header-cloud-2"></div>
+        <div class="header-cloud header-cloud-3"></div>
+        <div class="header-cloud header-cloud-4"></div>
+        <nav class="nav">
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Главная</a>
+                <a href="products.html" class="nav-link">Товары</a>
+            </div>
+            
+            <a href="index.html" class="logo-link">
+                <div class="logo">
+                    <img src="head.png" alt="Toy Story" class="logo-image">
+                    <p class="logo-subtitle">SHOP</p>
+                </div>
+            </a>
+            
+            <div class="nav-right">
+                <a href="about.html" class="nav-link active">О нас</a>
+                <a href="cart.html" class="cart-icon">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M9 2L7.17 4M15 2l1.83 2M3.5 9.09h17M5.5 9.09L7 20h10l1.5-10.91" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span id="cart-badge" class="cart-badge">0</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="about-section">
+            <h2 class="section-title">О магазине Toy Story Shop</h2>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Наша история</h3>
+                    <p>
+                        Toy Story Shop — это демонстрационный проект интернет-магазина, вдохновлённый легендарным 
+                        мультфильмом «История игрушек». Мы создали этот сайт, чтобы показать, как можно воплотить 
+                        атмосферу любимого мультфильма в веб-пространстве.
+                    </p>
+
+                    <h3>Технологии</h3>
+                    <p>
+                        Сайт разработан с использованием современных веб-технологий: HTML5, CSS3 с CSS-переменными 
+                        для удобной кастомизации, и чистый JavaScript ES6+ для интерактивности. Все данные хранятся 
+                        локально в формате JSON, а корзина работает через localStorage.
+                    </p>
+
+                    <h3>Дизайн</h3>
+                    <p>
+                        В оформлении использованы шрифты Google Fonts (Luckiest Guy и Bangers), яркая цветовая палитра 
+                        в стиле мультфильма, и полностью адаптивная вёрстка для всех устройств.
+                    </p>
+
+                    <h3>Важное замечание</h3>
+                    <p class="disclaimer">
+                        Это учебный проект. Все персонажи и элементы мультфильма «История игрушек» являются 
+                        собственностью Pixar Animation Studios и The Walt Disney Company. Изображения используются 
+                        в демонстрационных целях.
+                    </p>
+                </div>
+
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">8+</div>
+                        <div class="stat-label">Персонажей</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Адаптивность</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">0</div>
+                        <div class="stat-label">Библиотек</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Toy Story Shop. Демонстрационный проект.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

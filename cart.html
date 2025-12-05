@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина - Toy Story Shop</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Bangers&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-cloud header-cloud-1"></div>
+        <div class="header-cloud header-cloud-2"></div>
+        <div class="header-cloud header-cloud-3"></div>
+        <div class="header-cloud header-cloud-4"></div>
+        <nav class="nav">
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Главная</a>
+                <a href="products.html" class="nav-link">Товары</a>
+            </div>
+            
+            <a href="index.html" class="logo-link">
+                <div class="logo">
+                    <img src="head.png" alt="Toy Story" class="logo-image">
+                    <p class="logo-subtitle">SHOP</p>
+                </div>
+            </a>
+            
+            <div class="nav-right">
+                <a href="about.html" class="nav-link">О нас</a>
+                <a href="cart.html" class="cart-icon active">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M9 2L7.17 4M15 2l1.83 2M3.5 9.09h17M5.5 9.09L7 20h10l1.5-10.91" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span id="cart-badge" class="cart-badge">0</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="cart-section">
+            <h2 class="section-title">Моя корзина</h2>
+            
+            <div id="cart-container" class="cart-container">
+                <!-- Содержимое корзины загружается через JavaScript -->
+            </div>
+
+            <div id="cart-empty" class="cart-empty hidden">
+                <div class="flying-pole" id="flying-pole">
+                    <img src="pole.png" alt="Flying Pole">
+                </div>
+                <div class="empty-icon">🛒</div>
+                <h3>Ваша корзина пуста</h3>
+                <p>Добавьте игрушки из нашего каталога!</p>
+                <a href="products.html" class="btn btn-primary">Перейти к покупкам</a>
+            </div>
+
+            <div id="cart-summary" class="cart-summary hidden">
+                <div class="summary-row">
+                    <span>Товаров:</span>
+                    <span id="total-items">0</span>
+                </div>
+                <div class="summary-row summary-total">
+                    <span>Итого:</span>
+                    <span id="total-price">0 ₽</span>
+                </div>
+                <div class="cart-actions">
+                    <button id="clear-cart" class="btn btn-secondary">Очистить корзину</button>
+                    <button id="checkout" class="btn btn-primary">Оформить заказ</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Toy Story Shop. Демонстрационный проект.</p>
+    </footer>
+
+    <div id="checkout-modal" class="modal hidden">
+        <div class="modal-content">
+            <h3>Заказ оформлен!</h3>
+            <p>Спасибо за покупку! Это демонстрационный проект, поэтому настоящего заказа не будет.</p>
+            <button id="close-modal" class="btn btn-primary">Закрыть</button>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>

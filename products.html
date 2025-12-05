@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Товары - Toy Story Shop</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Bangers&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-cloud header-cloud-1"></div>
+        <div class="header-cloud header-cloud-2"></div>
+        <div class="header-cloud header-cloud-3"></div>
+        <div class="header-cloud header-cloud-4"></div>
+        <nav class="nav">
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Главная</a>
+                <a href="products.html" class="nav-link active">Товары</a>
+            </div>
+            
+            <a href="index.html" class="logo-link">
+                <div class="logo">
+                    <img src="head.png" alt="Toy Story" class="logo-image">
+                    <p class="logo-subtitle">SHOP</p>
+                </div>
+            </a>
+            
+            <div class="nav-right">
+                <a href="about.html" class="nav-link">О нас</a>
+                <a href="cart.html" class="cart-icon">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M9 2L7.17 4M15 2l1.83 2M3.5 9.09h17M5.5 9.09L7 20h10l1.5-10.91" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span id="cart-badge" class="cart-badge">0</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="products-section">
+            <h2 class="section-title">Наши герои</h2>
+            
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Поиск по имени героя..." class="search-input">
+            </div>
+
+            <div id="products-container" class="products-grid">
+                <!-- Товары загружаются через JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Toy Story Shop. Демонстрационный проект.</p>
+    </footer>
+
+    <div id="add-to-cart-notification" class="notification hidden">
+        Товар добавлен в корзину!
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/products.js"></script>
+</body>
+</html>
